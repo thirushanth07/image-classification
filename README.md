@@ -39,5 +39,5 @@ python train_mobilenetv2_cifar10.py --mode infer --model-path saved_model/mobile
 
 From saved model with a custom image:
 ```bash
-python train_mobilenetv2_cifar10.py --mode infer --model-path saved_model/mobilenetv2_cifar10 --infer-image /absolute/path/to/image.png
+python train_mobilenetv2_cifar10.py --mode infer --model-path saved_model/mobilenetv2_cifar10 --infer-image ./images/sample.png
 ```
